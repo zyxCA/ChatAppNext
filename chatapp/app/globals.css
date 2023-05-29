@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-green3;
+}
+p {
+  @apply max-w-max;
+}
+input {
+  @apply p-4;
+  @apply border border-green4;
+  @apply rounded-sm;
+}
+
+.owner {
+  @apply flex-row-reverse;
+}
+.owner p {
+  @apply bg-lime-300;
+  @apply text-yellow-900;
+  @apply rounded-2xl rounded-tr-none;
+}
+.owner .messageContent {
+  @apply items-end;
+}
